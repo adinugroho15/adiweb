@@ -1,0 +1,114 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Cinematic Ride Contact
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+  </style>
+ </head>
+ <body class="bg-[#bdd7e7] min-h-screen flex">
+  <!-- Sidebar -->
+  <aside class="w-40 bg-[#bdd7e7] border-r border-gray-400 flex flex-col">
+   <div class="p-4 font-fredoka text-2xl font-bold tracking-widest" style="font-family: 'Fredoka One', cursive;">
+    CR
+   </div>
+   <nav class="flex flex-col border-t border-b border-gray-400">
+    <a class="flex items-center gap-2 px-3 py-2 border-b border-gray-400 hover:bg-[#a9c1d6]" href="/index.html">
+     <i class="fas fa-home text-xl">
+     </i>
+     <span class="text-gray-700 text-base">
+      Home
+     </span>
+    </a>
+    <a class="flex items-center gap-2 px-3 py-2 border-b border-gray-400 hover:bg-[#a9c1d6]" href="/galery.html">
+     <i class="fas fa-image text-xl">
+     </i>
+     <span class="text-gray-700 text-base">
+      Gallery
+     </span>
+    </a>
+    <a class="flex items-center gap-2 px-3 py-2 border-b border-gray-400 hover:bg-[#a9c1d6]" href="/about.html">
+     <i class="fas fa-cog text-xl">
+     </i>
+     <span class="text-gray-700 text-base">
+      About
+     </span>
+    </a>
+    <a class="flex items-center gap-2 px-3 py-2 border-b border-gray-400 hover:bg-[#a9c1d6]" href="/kontak.html">
+     <i class="fas fa-user-circle text-xl">
+     </i>
+     <span class="text-red-500 text-base">
+      Contact
+     </span>
+    </a>
+   </nav>
+   <div class="mt-auto">
+    <img alt="City skyline silhouette in blue shade at bottom of sidebar" class="w-full" height="80" src="https://storage.googleapis.com/a1aa/image/f8bb75b9-dce0-434f-f74b-c349fbf87eca.jpg" width="160"/>
+   </div>
+  </aside>
+  <!-- Main content -->
+  <main class="flex-1 flex flex-col p-4 border-b border-gray-400">
+   <!-- Search bar -->
+   <form class="mb-2">
+    <label class="sr-only" for="search">
+     Search
+    </label>
+    <input class="w-full max-w-md rounded-lg border border-gray-400 bg-[#bdd7e7] py-2 px-3 text-gray-700 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-400" id="search" placeholder="Search" type="search"/>
+   </form>
+   <hr class="border-gray-400 mb-4"/>
+   <!-- Contact Us button -->
+   <button class="inline-flex items-center gap-2 border border-gray-700 rounded-md bg-[#bdd7e7] px-3 py-1 text-xs font-bold text-gray-900 hover:bg-gray-200" type="button">
+    <i class="far fa-envelope text-lg">
+    </i>
+    CONTACT US
+   </button>
+   <!-- Contact form area -->
+   <section class="mt-4 bg-gray-500 rounded-md p-4 text-gray-900 font-bold text-lg" style="font-family: Arial, sans-serif;">
+    <p>
+     <span>
+      Name:
+     </span>
+    </p>
+    <p>
+     <span>
+      Email:
+     </span>
+    </p>
+    <p>
+     <span>
+      Message:
+     </span>
+    </p>
+   </section>
+   <!-- Social icons bar -->
+   <section aria-label="Social media contact icons" class="mt-4 bg-gray-500 rounded-md p-4 flex justify-around items-center">
+    <button aria-label="Phone contact" class="text-4xl rounded-full bg-gray-400 p-3">
+     <i class="fas fa-phone">
+     </i>
+    </button>
+    <button aria-label="Facebook" class="text-4xl text-gray-900">
+     <i class="fab fa-facebook-f">
+     </i>
+    </button>
+    <button aria-label="Instagram" class="text-4xl text-gray-900">
+     <i class="fab fa-instagram">
+     </i>
+    </button>
+    <button aria-label="X (Twitter)" class="text-4xl text-white bg-black rounded-full p-1">
+     <i class="fab fa-x-twitter">
+     </i>
+    </button>
+    <button aria-label="Email" class="text-4xl text-gray-900">
+     <i class="fas fa-envelope">
+     </i>
+    </button>
+   </section>
+  </main>
+ </body>
+</html>
